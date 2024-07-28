@@ -9,7 +9,7 @@ mongoose
   )
   .then(() => console.log(`mongoDB connected`))
   .then((error) => console.log(error));
-
+console.log("hi");
 app.use(bodyParser.json());
 app.use("/", todoRoutes);
 const PORT = process.env.PORT || 4000;
